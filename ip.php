@@ -1,14 +1,12 @@
-<body>
 <pre>
 <?php
 
 print("Hello World\n\n");
 print("Time: ");
-print(`date`);
+print `date`;
 print("\n");
 print("Details of server:\n");
-print(`ifconfig`);
+print `ifconfig`;
 
 ?>
 </pre>
-</body>
