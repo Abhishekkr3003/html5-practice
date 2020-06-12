@@ -10,7 +10,12 @@ print `ifconfig`;
 print("\n");
 print("RAM:\n");
 print `free -m`;
-
+print("\n");
+print("Volumes:\n");
+print `df -h`;
+print("\n");
+print("CPU:\n");
+print `lscpu`;
 
 ?>
 </pre>
